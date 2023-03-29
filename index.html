@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azul Pro Indumentaria</title>
+    <meta name="description" content="Disfrutá la nieve con la indumentaria y accesorios especializados para disfrutar de tu aventura. Hacé tus compras y obtené descuentos exclusivos.">
+    <meta name="keywords" content="Bariloche, alquiler, Indumentaria, Accesorios, nieve, vacaciones, esqui">
+    <meta name="author" content="LBU Digital">
+    <!--Js--->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/r3plica/Scrollspy/master/scrollspy.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="css/all.css">
+    <script defer src="js/all.js"></script>
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+
+    <meta name="google-site-verification" content="a6SbHzgaLZkzNrch-zOMpQjsoorL2aFvhkgdsh1-Sn8" />
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+      </script>
+  <!-- End Google Analytics -->
+
+    </head>
+
+    <body class="">
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-2">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logo" src="./img/logo.png"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienessomos">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#novedades">Promociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/Navbar -->
+    <div>	 
+        <div>
+          <!-- WhatsApp --->
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=5492944509522&text=Hola!%20Me%20comunico%20desde%20la%20web!"><img class="whatsapp" src="img/WhatsApp.png"/></a>
+        </div>
+        <!-- Home -->
+        <div id="home" class="section home">
+          <div class="contenido">
+            <h1>
+              Sumate <span>a la aventura</span>
+            </h1>
+            <p>Disfrutá la nieve con la indumentaria y accesorios especializados para disfrutar de tu aventura. <br>
+              Hacé tus compras y obtené descuentos exclusivos.<br>
+              <strong> Sumate a conocernos</strong>.
+            </p>
+           <button class="button" onclick="IrQuienesSomos()">Conocer más</button>
+          </div>
+        </div>
+        <!--Quienes somos -->
+        <div id="quienessomos" class="section quienessomos">
+          <div class="contenedor text-section"> 
+            <h1>Quiénes <span>Somos</span></h1>
+            <p>Somos un local líder en el rubro de alquiler y venta de ropa de nieve en Bariloche, estamos hace más de 15 años brindando los mejores equipos.</p><p>La buena atención y la excelencia en nuestros productos nos definen, y es por esto que mantemos una clientela fiel que crece y nos acompaña año a año.</p>
+            <p><strong>SOMOS AZUL PRO.</strong></p><p>Sumate a conocernos.</p>
+            <div class="center">
+              <button class="button" onclick="IrPromociones()">Conocé nuestras promociones</button>
+            </div>
+          </div>
+            <!---<img src="img/banner2.png">--->
+        </div>
+        <!-- Novedades -->
+        <div id="novedades" class="section promos">
+          <div class="wraper">  
+            <h1><span>Nuestras</span> Promociones</h1>
+            <p>Aprovechá todas las promociones y descuentos que tenemos para ofrecerte.</p>
+
+            <div class="promo-section">
+              <div class="promo-box promo1">
+                <div class="content-box">
+                  <div class="content-overlay"></div>
+                  <div class="section-sale"></div>
+                  <img class="content-image img-promo1" src="./img/promo1.png">
+                  <div class="content-details fadeIn-bottom">
+                    <button class="button" onclick="IrContacto()">Contactanos</button>
+                  </div>
+              </div>
+              </div>
+
+              <div class="promo-box promo2">
+                <div class="content-box">
+                  <div class="content-overlay"></div>
+                  <div class="section-sale"></div>
+                  <img class="content-image img-promo1" src="./img/promo2.png">
+                  <div class="content-details fadeIn-bottom">
+                    <button class="button" onclick="IrContacto()">Contactanos</button>
+                  </div>
+              </div>
+              </div>
+              <div class="promo-box promo3">
+                <div class="content-box">
+                  <div class="content-overlay"></div>
+                  <div class="section-sale"></div>
+                  <img class="content-image img-promo1" src="./img/promo3.png">
+                  <div class="content-details fadeIn-bottom">
+                    <button class="button" onclick="IrContacto()">Contactanos</button>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+            <!---<section class="card_container">
+              <div class="card_outer">
+                <div class="card">
+                  <div class="card_content">
+                    <button class="card_btn" onclick="IrContacto()">Contactanos</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card_content">
+                    <button class="card_btn" onclick="IrContacto()">Contactanos</button>
+                  </div>
+                </div>
+                <div class="card promo3">
+                  <div class="card_content">
+                    <button class="card_btn"onclick="IrContacto()">Contactanos</button>
+                  </div>
+                </div>
+              </div>
+            </section>--->
+
+
+          </div>
+        </div>
+        <!--Contacto -->
+        <div id="contacto" class="section contacto">
+          <div class="wraper">  
+            <h1>Contactanos</h1>
+            <p>Queremos escucharte. Queremos ayudarte.</p>
+          <div class="datos">
+            <div class="bloque adress">
+              <i class="fas fa-map-marker-alt"></i>
+              <h4>Nuestra dirección:</h4>
+              <p>Av. Gral. San Martín 127 (R8400ALB)<br>
+              San Carlos de Bariloche <br>
+              Rio Negro - Argentina</p>
+            </div>
+            <div class="bloque phone">
+              <i class="fas fa-phone-alt"></i>
+              <h4>Nuestros teléfonos:</h4>
+              <p>0294 450-9522 <br>
+              0294 443-9099</p>
+            </div>
+            <div class="bloque social">
+              <i class="fas fa-heart"></i>
+            <h4>Seguinos:</h4>
+            <a target="_blank" href="https://www.facebook.com/azulpro.bariloche"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/azulpro_bariloche/"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          </div>
+          <div class="space"></div>
+          <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0143052008493!2d-71.31423538458208!3d-41.13421367928815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b0d377a79d5%3A0x2a09f1b2dacd1165!2sAZUL%20PRO!5e0!3m2!1ses-419!2sar!4v1622480819642!5m2!1ses-419!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+        </div>
+
+        <footer class="bg-light text-center text-white">
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.7);">
+            © 2021 Copyright | Azul Pro Indumentaria | LBU-Design
+          </div>
+        </footer>
+
+      </div>
+         <script src="js/bootstrap.bundle.min.js"></script>
+         <script type="text/javascript">
+
+           var nav = document.querySelector('nav');
+     
+           window.addEventListener('scroll', function () {
+             if (window.pageYOffset > 200) {
+               nav.classList.add('navbar-color', 'navbar-border');
+             } else {
+               nav.classList.remove('navbar-color', 'navbar-border');
+             }
+           });
+
+          $("#navbarNav").scrollspy({ offset: 10 });
+
+          function IrQuienesSomos() {
+          var elmnt = document.getElementById("quienessomos");
+          elmnt.scrollIntoView();
+          }
+          function IrPromociones() {
+          var elmnt = document.getElementById("novedades");
+          elmnt.scrollIntoView();
+          }
+          function IrContacto() {
+          var elmnt = document.getElementById("contacto");
+          elmnt.scrollIntoView();
+          }
+         </script>
+
+    </body>
+</html>
